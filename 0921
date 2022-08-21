@@ -25,15 +25,6 @@ proxy-groups:
       - 0921_1
       - 0921_2
       - Z02
-  - name: NETFLIX
-    type: select
-    proxies:
-      - 🔰 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 0921_1
-      - 0921_2
-      - Z02
   - name: ⛔️ 广告拦截
     type: select
     proxies:
