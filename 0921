@@ -25,7 +25,7 @@ proxy-groups:
       - 0921_1
       - 0921_2
       - Z02
-  - name: 🎥 NETFLIX
+  - name: NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
