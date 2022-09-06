@@ -6,8 +6,8 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: JP2_1027, server: v21.jgdtd.com, port: 13160, type: trojan, password: oIZ4ZLRvlU, sni: v21.jgdtd.com, skip-cert-verify: true, udp: true}
-  - {name: HK_1027, server: nf.jgdtd.com, port: 5482, type: trojan, password: jijc8qdoyk, sni: nf.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: JP_1027, server: v22.jgdtd.com, port: 30166, type: trojan, password: VqaVRUZdBa, sni: v22.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: HK_1027, server: nf.jgdtd.com, port: 13541, type: trojan, password: jijc8qdoyk, sni: nf.jgdtd.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -15,16 +15,16 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JP2_1027
-      - HK_1027
       - JP_1027
+      - HK_1027
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - JP2_1027
-      - HK_1027
       - JP_1027
+      - HK_1027
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -32,8 +32,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JP2_1027
-      - HK_1027
       - JP_1027
+      - HK_1027
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -53,8 +53,8 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JP2_1027
-      - HK_1027
       - JP_1027
+      - HK_1027
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -66,16 +66,16 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - JP2_1027
-      - HK_1027
       - JP_1027
+      - HK_1027
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - JP2_1027
-      - HK_1027
       - JP_1027
+      - HK_1027
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -83,8 +83,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - JP2_1027
-      - HK_1027
       - JP_1027
+      - HK_1027
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -101,8 +101,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - JP2_1027
-      - HK_1027
       - JP_1027
+      - HK_1027
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
