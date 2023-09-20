@@ -8,6 +8,8 @@ proxies:
   - {name: 0515_JP1, server: v22.jgdtd.com, port: 16321, type: trojan, password: 02K8C523oO, sni: v22.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: 0515_jp2, server: v21.jgdtd.com, port: 13017, type: trojan, password: usnW389Dyt, sni: v21.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: 0515_HK, server: nf.jgdtd.com, port: 53143, type: trojan, password: h7WISFsGbY, sni: nf.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: 20230515-77oo8cwu, server: fk1.jgdtd.com, port: 56780, type: trojan, password: 5wyV59qkJt, sni: fk1.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 443, type: trojan, password: asdasffgg, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -17,6 +19,8 @@ proxy-groups:
       - 0515_JP1
       - 0515_jp2
       - 0515_HK
+      - 20230515-77oo8cwu
+      - us1.jgdtd.com:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -25,6 +29,8 @@ proxy-groups:
       - 0515_JP1
       - 0515_jp2
       - 0515_HK
+      - 20230515-77oo8cwu
+      - us1.jgdtd.com:443
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -34,6 +40,8 @@ proxy-groups:
       - 0515_JP1
       - 0515_jp2
       - 0515_HK
+      - 20230515-77oo8cwu
+      - us1.jgdtd.com:443
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -55,6 +63,8 @@ proxy-groups:
       - 0515_JP1
       - 0515_jp2
       - 0515_HK
+      - 20230515-77oo8cwu
+      - us1.jgdtd.com:443
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -68,6 +78,8 @@ proxy-groups:
       - 0515_JP1
       - 0515_jp2
       - 0515_HK
+      - 20230515-77oo8cwu
+      - us1.jgdtd.com:443
   - name: 📲 电报信息
     type: select
     proxies:
@@ -76,6 +88,8 @@ proxy-groups:
       - 0515_JP1
       - 0515_jp2
       - 0515_HK
+      - 20230515-77oo8cwu
+      - us1.jgdtd.com:443
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -85,6 +99,8 @@ proxy-groups:
       - 0515_JP1
       - 0515_jp2
       - 0515_HK
+      - 20230515-77oo8cwu
+      - us1.jgdtd.com:443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -103,6 +119,8 @@ proxy-groups:
       - 0515_JP1
       - 0515_jp2
       - 0515_HK
+      - 20230515-77oo8cwu
+      - us1.jgdtd.com:443
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
