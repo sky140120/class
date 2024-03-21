@@ -8,7 +8,7 @@ proxies:
   - {name: JP2_1027, server: v21.jgdtd.com, port: 13160, type: trojan, password: oIZ4ZLRvlU, sni: v21.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: JP_1027, server: v22.jgdtd.com, port: 30166, type: trojan, password: VqaVRUZdBa, sni: v22.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: HK_1027, server: nf.jgdtd.com, port: 16357, type: trojan, password: Bm1HJN5mUj, sni: nf.jgdtd.com, skip-cert-verify: true, udp: true}
-  - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port:253, type: trojan, password: sfajhbhj, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 40084, type: trojan, password: sfajhbhj, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: 20230428-dibw4u12, server: fk1.jgdtd.com, port: 56140, type: trojan, password: tsHVae2Jt5, sni: fk1.jgdtd.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
