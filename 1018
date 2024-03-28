@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: JP1, server: v22.jgdtd.com, port: 54915, type: trojan, password: 9SZIyWESa6, sni: v22.jgdtd.com, skip-cert-verify: true, udp: true}
-  - {name: JP2, server: v21.jgdtd.com, port: 12473, type: trojan, password: Y3pKTHrkpF, sni: v21.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: JP2, server: jp3.jgdtd.com, port: 30379, type: trojan, password: PFWnXyKpa3, sni: jp3.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: HK1, server: nf.jgdtd.com, port: 15976, type: trojan, password: D9IJbCtAt8, sni: nf.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: 0918-86olxpbm, server: fk1.jgdtd.com, port: 53442, type: trojan, password: Q4TIeK2CsY, sni: fk1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 40084, type: trojan, password: dsafbjkbfuka, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
