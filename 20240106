@@ -9,6 +9,7 @@ proxies:
   - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 40084, type: trojan, password: asfasfagg, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: 20240106_JP1, server: v22.jgdtd.com, port: 30156, type: trojan, password: V7ufnKuklB, sni: v22.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: 20240106-6meeanay, server: fk1.jgdtd.com, port: 20297, type: trojan, password: ZxSd4kZVEC, sni: fk1.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: JP_0106, server: jp3.jgdtd.com, port: 26170, type: trojan, password: GwKvFD7ovr, sni: jp3.jgdtd.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -19,6 +20,7 @@ proxy-groups:
       - us1.jgdtd.com:443
       - 20240106_JP1
       - 20240106-6meeanay
+      - JP_0106
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,6 +30,7 @@ proxy-groups:
       - us1.jgdtd.com:443
       - 20240106_JP1
       - 20240106-6meeanay
+      - JP_0106
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -38,6 +41,7 @@ proxy-groups:
       - us1.jgdtd.com:443
       - 20240106_JP1
       - 20240106-6meeanay
+      - JP_0106
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,6 +64,7 @@ proxy-groups:
       - us1.jgdtd.com:443
       - 20240106_JP1
       - 20240106-6meeanay
+      - JP_0106
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -74,6 +79,7 @@ proxy-groups:
       - us1.jgdtd.com:443
       - 20240106_JP1
       - 20240106-6meeanay
+      - JP_0106
   - name: 📲 电报信息
     type: select
     proxies:
@@ -83,6 +89,7 @@ proxy-groups:
       - us1.jgdtd.com:443
       - 20240106_JP1
       - 20240106-6meeanay
+      - JP_0106
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -93,6 +100,7 @@ proxy-groups:
       - us1.jgdtd.com:443
       - 20240106_JP1
       - 20240106-6meeanay
+      - JP_0106
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -112,6 +120,7 @@ proxy-groups:
       - us1.jgdtd.com:443
       - 20240106_JP1
       - 20240106-6meeanay
+      - JP_0106
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
