@@ -10,6 +10,7 @@ proxies:
   - {name: iplc沪日-clone, server: iplc-jp1.cloudiplc.net, port: 53266, type: ss, cipher: aes-256-cfb, password: qwer789, udp: true}
   - {name: me-09j9a1e4, server: fk1.jgdtd.com, port: 49966, type: trojan, password: F0FD05bxs3, sni: fk1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 40084, type: trojan, password: syld, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: JPNF_ZI, server: jp3.jgdtd.com, port: 17999, type: trojan, password: GxSpTXwEdI, sni: jp3.jgdtd.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -21,6 +22,7 @@ proxy-groups:
       - iplc沪日-clone
       - me-09j9a1e4
       - us1.jgdtd.com:443
+      - JPNF_ZI
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -31,6 +33,7 @@ proxy-groups:
       - iplc沪日-clone
       - me-09j9a1e4
       - us1.jgdtd.com:443
+      - JPNF_ZI
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -42,6 +45,7 @@ proxy-groups:
       - iplc沪日-clone
       - me-09j9a1e4
       - us1.jgdtd.com:443
+      - JPNF_ZI
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -65,6 +69,7 @@ proxy-groups:
       - iplc沪日-clone
       - me-09j9a1e4
       - us1.jgdtd.com:443
+      - JPNF_ZI
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -80,6 +85,7 @@ proxy-groups:
       - iplc沪日-clone
       - me-09j9a1e4
       - us1.jgdtd.com:443
+      - JPNF_ZI
   - name: 📲 电报信息
     type: select
     proxies:
@@ -90,6 +96,7 @@ proxy-groups:
       - iplc沪日-clone
       - me-09j9a1e4
       - us1.jgdtd.com:443
+      - JPNF_ZI
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -101,6 +108,7 @@ proxy-groups:
       - iplc沪日-clone
       - me-09j9a1e4
       - us1.jgdtd.com:443
+      - JPNF_ZI
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -121,6 +129,7 @@ proxy-groups:
       - iplc沪日-clone
       - me-09j9a1e4
       - us1.jgdtd.com:443
+      - JPNF_ZI
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
