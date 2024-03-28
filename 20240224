@@ -10,6 +10,7 @@ proxies:
   - {name: 0224_F-mfwcjs47, server: fk1.jgdtd.com, port: 12310, type: trojan, password: 4Fv5uwvTR8, sni: fk1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 40084, type: trojan, password: fasfgfsaf, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: JP_0224, server: jp3.jgdtd.com, port: 41209, type: trojan, password: inHvn0IxW0, sni: jp3.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: HK_0224_2, server: hknf1.jgdtd.com, port: 13008, type: trojan, password: gTSRyLcYsw, sni: hknf1.jgdtd.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -21,6 +22,7 @@ proxy-groups:
       - 0224_F-mfwcjs47
       - us1.jgdtd.com:443
       - JP_0224
+      - HK_0224_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -31,6 +33,7 @@ proxy-groups:
       - 0224_F-mfwcjs47
       - us1.jgdtd.com:443
       - JP_0224
+      - HK_0224_2
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -42,6 +45,7 @@ proxy-groups:
       - 0224_F-mfwcjs47
       - us1.jgdtd.com:443
       - JP_0224
+      - HK_0224_2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -65,6 +69,7 @@ proxy-groups:
       - 0224_F-mfwcjs47
       - us1.jgdtd.com:443
       - JP_0224
+      - HK_0224_2
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -80,6 +85,7 @@ proxy-groups:
       - 0224_F-mfwcjs47
       - us1.jgdtd.com:443
       - JP_0224
+      - HK_0224_2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -90,6 +96,7 @@ proxy-groups:
       - 0224_F-mfwcjs47
       - us1.jgdtd.com:443
       - JP_0224
+      - HK_0224_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -101,6 +108,7 @@ proxy-groups:
       - 0224_F-mfwcjs47
       - us1.jgdtd.com:443
       - JP_0224
+      - HK_0224_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -121,6 +129,7 @@ proxy-groups:
       - 0224_F-mfwcjs47
       - us1.jgdtd.com:443
       - JP_0224
+      - HK_0224_2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
