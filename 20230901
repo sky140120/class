@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 20230901_JP1, server: v22.jgdtd.com, port: 53643, type: trojan, password: jRQhLZWTQe, sni: v22.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: 20230901_JP1, server: jpbgp1.wurenjd.buzz, port: 26637, type: trojan, password: wMd9c7S1jG, sni: jpbgp1.wurenjd.buzz, skip-cert-verify: true, udp: true}
   - {name: JP_0901, server: jp3.jgdtd.com, port: 21982, type: trojan, password: 5r7WNPYMUn, sni: jp3.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: 20230901_HK, server: hk1.wurenjd.buzz, port: 20878, type: trojan, password: 6tz37W9Q2z, sni: hk1.wurenjd.buzz, skip-cert-verify: true, udp: true}
   - {name: HK3_30G, server: hk2.wurenjd.buzz, port: 42451, type: trojan, password: yzeO8xwXS6, sni: hk2.wurenjd.buzz, skip-cert-verify: true, udp: true}
