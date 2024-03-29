@@ -7,7 +7,7 @@ external-controller: :9090
 proxies:
   - {name: 0224_HK, server: nf.jgdtd.com, port: 40749, type: trojan, password: O5tIjN5RpR, sni: nf.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: 0224_JP, server: v22.jgdtd.com, port: 29926, type: trojan, password: n5vBLWPkAx, sni: v22.jgdtd.com, skip-cert-verify: true, udp: true}
-  - {name: 0224_F-mfwcjs47, server: fk1.jgdtd.com, port: 12310, type: trojan, password: 4Fv5uwvTR8, sni: fk1.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: HK_3_30G, server: hk2.wurenjd.buzz, port: 55128, type: trojan, password: nsKWiwfOfu, sni: hk2.wurenjd.buzz, skip-cert-verify: true, udp: true}
   - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 40084, type: trojan, password: fasfgfsaf, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: JP_0224, server: jp3.jgdtd.com, port: 41209, type: trojan, password: inHvn0IxW0, sni: jp3.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: HK_0224_2, server: hknf1.jgdtd.com, port: 13008, type: trojan, password: gTSRyLcYsw, sni: hknf1.jgdtd.com, skip-cert-verify: true, udp: true}
@@ -19,7 +19,7 @@ proxy-groups:
       - 🎯 全球直连
       - 0224_HK
       - 0224_JP
-      - 0224_F-mfwcjs47
+      - HK_3_30G
       - us1.jgdtd.com:443
       - JP_0224
       - HK_0224_2
@@ -30,7 +30,7 @@ proxy-groups:
     proxies:
       - 0224_HK
       - 0224_JP
-      - 0224_F-mfwcjs47
+      - HK_3_30G
       - us1.jgdtd.com:443
       - JP_0224
       - HK_0224_2
@@ -42,7 +42,7 @@ proxy-groups:
       - 🎯 全球直连
       - 0224_HK
       - 0224_JP
-      - 0224_F-mfwcjs47
+      - HK_3_30G
       - us1.jgdtd.com:443
       - JP_0224
       - HK_0224_2
@@ -66,7 +66,7 @@ proxy-groups:
       - 🎯 全球直连
       - 0224_HK
       - 0224_JP
-      - 0224_F-mfwcjs47
+      - HK_3_30G
       - us1.jgdtd.com:443
       - JP_0224
       - HK_0224_2
@@ -82,7 +82,7 @@ proxy-groups:
       - 🔰 节点选择
       - 0224_HK
       - 0224_JP
-      - 0224_F-mfwcjs47
+      - HK_3_30G
       - us1.jgdtd.com:443
       - JP_0224
       - HK_0224_2
@@ -93,7 +93,7 @@ proxy-groups:
       - 🎯 全球直连
       - 0224_HK
       - 0224_JP
-      - 0224_F-mfwcjs47
+      - HK_3_30G
       - us1.jgdtd.com:443
       - JP_0224
       - HK_0224_2
@@ -105,7 +105,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 0224_HK
       - 0224_JP
-      - 0224_F-mfwcjs47
+      - HK_3_30G
       - us1.jgdtd.com:443
       - JP_0224
       - HK_0224_2
@@ -126,7 +126,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 0224_HK
       - 0224_JP
-      - 0224_F-mfwcjs47
+      - HK_3_30G
       - us1.jgdtd.com:443
       - JP_0224
       - HK_0224_2
