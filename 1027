@@ -7,9 +7,10 @@ external-controller: :9090
 proxies:
   - {name: JP2_1027, server: jp3.jgdtd.com, port: 18648, type: trojan, password: y1BkcNpkoG, sni: jp3.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: JP_1027, server: v22.jgdtd.com, port: 30166, type: trojan, password: VqaVRUZdBa, sni: v22.jgdtd.com, skip-cert-verify: true, udp: true}
-  - {name: HK_1027, server: nf.jgdtd.com, port: 16357, type: trojan, password: Bm1HJN5mUj, sni: nf.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: HK_1027, server: hk1.wurenjd.buzz, port: 55960, type: trojan, password: ZVv79nduI8, sni: hk1.wurenjd.buzz, skip-cert-verify: true, udp: true}
   - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 40084, type: trojan, password: sfajhbhj, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
-  - {name: 20230428-dibw4u12, server: fk1.jgdtd.com, port: 56140, type: trojan, password: tsHVae2Jt5, sni: fk1.jgdtd.com, skip-cert-verify: true, udp: true}
+  - {name: HK3_30G, server: hk2.wurenjd.buzz, port: 29619, type: trojan, password: Glcz1MjBIC, sni: hk2.wurenjd.buzz, skip-cert-verify: true, udp: true}
+  - {name: HK2_0428, server: hknf1.jgdtd.com, port: 44096, type: trojan, password: xrria1Rne9, sni: hknf1.jgdtd.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -20,7 +21,8 @@ proxy-groups:
       - JP_1027
       - HK_1027
       - us1.jgdtd.com:443
-      - 20230428-dibw4u12
+      - HK3_30G
+      - HK2_0428
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -30,7 +32,8 @@ proxy-groups:
       - JP_1027
       - HK_1027
       - us1.jgdtd.com:443
-      - 20230428-dibw4u12
+      - HK3_30G
+      - HK2_0428
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -41,7 +44,8 @@ proxy-groups:
       - JP_1027
       - HK_1027
       - us1.jgdtd.com:443
-      - 20230428-dibw4u12
+      - HK3_30G
+      - HK2_0428
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,7 +68,8 @@ proxy-groups:
       - JP_1027
       - HK_1027
       - us1.jgdtd.com:443
-      - 20230428-dibw4u12
+      - HK3_30G
+      - HK2_0428
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -79,7 +84,8 @@ proxy-groups:
       - JP_1027
       - HK_1027
       - us1.jgdtd.com:443
-      - 20230428-dibw4u12
+      - HK3_30G
+      - HK2_0428
   - name: 📲 电报信息
     type: select
     proxies:
@@ -89,7 +95,8 @@ proxy-groups:
       - JP_1027
       - HK_1027
       - us1.jgdtd.com:443
-      - 20230428-dibw4u12
+      - HK3_30G
+      - HK2_0428
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -100,7 +107,8 @@ proxy-groups:
       - JP_1027
       - HK_1027
       - us1.jgdtd.com:443
-      - 20230428-dibw4u12
+      - HK3_30G
+      - HK2_0428
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -120,7 +128,8 @@ proxy-groups:
       - JP_1027
       - HK_1027
       - us1.jgdtd.com:443
-      - 20230428-dibw4u12
+      - HK3_30G
+      - HK2_0428
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
