@@ -9481,6 +9481,7 @@ rules:
  - DOMAIN-SUFFIX,gvt0.com,🔰 节点选择
  - DOMAIN-SUFFIX,gvt3.com,🔰 节点选择
  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔰 节点选择
+ - DOMAIN-SUFFIX,linkedin.com,🔰 节点选择
  - DOMAIN-SUFFIX,ytimg.com,🔰 节点选择
  - DOMAIN-KEYWORD,google,🔰 节点选择
  - DOMAIN-KEYWORD,.blogspot.,🔰 节点选择
