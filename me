@@ -5,14 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 自用_JP1, server: v22.jgdtd.com, port: 15243, type: trojan, password: oEBRMG28MK, sni: v22.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: HK_ZI, server: hk1.wurenjd.buzz, port: 52478, type: trojan, password: aIJHmrEs5P, sni: hk1.wurenjd.buzz, skip-cert-verify: true, udp: true}
   - {name: iplc沪日-clone, server: iplc-jp1.cloudiplc.net, port: 53266, type: ss, cipher: aes-256-cfb, password: qwer789, udp: true}
   - {name: iplc沪日-02, server: iplc-jp1.cloudiplc.net, port: 49063, type: ss, cipher: aes-256-cfb, password: syld140120, udp: true}
   - {name: Hk_3, server: hk2.wurenjd.buzz, port: 46238, type: trojan, password: SqFjmMo33s, sni: hk2.wurenjd.buzz, skip-cert-verify: true, udp: true}
   - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 20539, type: trojan, password: SPigVFZZo4, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: JPNF_ZI, server: jp3.jgdtd.com, port: 17999, type: trojan, password: GxSpTXwEdI, sni: jp3.jgdtd.com, skip-cert-verify: true, udp: true}
-  - {name: HK_NF2, server: hknf1.jgdtd.com, port: 10000, type: trojan, password: 6RBDpggszC, sni: hknf1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: JP_BGP, server: jpbgp1.wurenjd.buzz, port: 57119, type: trojan, password: GQxNbgtWzJ, sni: jpbgp1.wurenjd.buzz, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
@@ -20,28 +18,24 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 自用_JP1
       - HK_ZI
       - iplc沪日-clone
       - iplc沪日-02
       - Hk_3
       - us1.jgdtd.com:443
       - JPNF_ZI
-      - HK_NF2
       - JP_BGP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 自用_JP1
       - HK_ZI
       - iplc沪日-clone
       - iplc沪日-02
       - Hk_3
       - us1.jgdtd.com:443
       - JPNF_ZI
-      - HK_NF2
       - JP_BGP
   - name: 🎥 NETFLIX
     type: select
@@ -49,14 +43,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 自用_JP1
       - HK_ZI
       - iplc沪日-clone
       - iplc沪日-02
       - Hk_3
       - us1.jgdtd.com:443
       - JPNF_ZI
-      - HK_NF2
       - JP_BGP
   - name: ⛔️ 广告拦截
     type: select
@@ -76,14 +68,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 自用_JP1
       - HK_ZI
       - iplc沪日-clone
       - iplc沪日-02
       - Hk_3
       - us1.jgdtd.com:443
       - JPNF_ZI
-      - HK_NF2
       - JP_BGP
   - name: 🌏 国内媒体
     type: select
@@ -95,28 +85,24 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 自用_JP1
       - HK_ZI
       - iplc沪日-clone
       - iplc沪日-02
       - Hk_3
       - us1.jgdtd.com:443
       - JPNF_ZI
-      - HK_NF2
       - JP_BGP
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 自用_JP1
       - HK_ZI
       - iplc沪日-clone
       - iplc沪日-02
       - Hk_3
       - us1.jgdtd.com:443
       - JPNF_ZI
-      - HK_NF2
       - JP_BGP
   - name: 🍎 苹果服务
     type: select
@@ -124,14 +110,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 自用_JP1
       - HK_ZI
       - iplc沪日-clone
       - iplc沪日-02
       - Hk_3
       - us1.jgdtd.com:443
       - JPNF_ZI
-      - HK_NF2
       - JP_BGP
   - name: 🎯 全球直连
     type: select
@@ -148,14 +132,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 自用_JP1
       - HK_ZI
       - iplc沪日-clone
       - iplc沪日-02
       - Hk_3
       - us1.jgdtd.com:443
       - JPNF_ZI
-      - HK_NF2
       - JP_BGP
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
