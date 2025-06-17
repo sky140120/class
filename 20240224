@@ -5,9 +5,9 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 0224_HK, server: hk1.wurenjd.buzz, port: 52141, type: trojan, password: 7FQKzBrO2E, sni: hk1.wurenjd.buzz, skip-cert-verify: true, udp: true}
-  - {name: 0224_JP, server: jpbgp1.wurenjd.buzz, port: 57959, type: trojan, password: shRLLM7ViF, sni: jpbgp1.wurenjd.buzz, skip-cert-verify: true, udp: true}
-  - {name: HK_3_30G, server: hk2.wurenjd.buzz, port: 55128, type: trojan, password: nsKWiwfOfu, sni: hk2.wurenjd.buzz, skip-cert-verify: true, udp: true}
+  - {name: 0224_HK, server: hk1.wurenjd.top, port: 52141, type: trojan, password: 7FQKzBrO2E, sni: hk1.wurenjd.buzz, skip-cert-verify: true, udp: true}
+  - {name: 0224_JP, server: jpbgp1.wurenjd.top, port: 57959, type: trojan, password: shRLLM7ViF, sni: jpbgp1.wurenjd.buzz, skip-cert-verify: true, udp: true}
+  - {name: HK_3_30G, server: hk2.wurenjd.top, port: 55128, type: trojan, password: nsKWiwfOfu, sni: hk2.wurenjd.buzz, skip-cert-verify: true, udp: true}
   - {name: us1.jgdtd.com:443, server: us1.jgdtd.com, port: 48115, type: trojan, password: z722Kh8Zdx, sni: us1.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: JP_0224, server: jp3.jgdtd.com, port: 41209, type: trojan, password: inHvn0IxW0, sni: jp3.jgdtd.com, skip-cert-verify: true, udp: true}
   - {name: HK_0224_2, server: hknf1.jgdtd.com, port: 13008, type: trojan, password: gTSRyLcYsw, sni: hknf1.jgdtd.com, skip-cert-verify: true, udp: true}
